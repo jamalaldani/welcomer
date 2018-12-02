@@ -1,5 +1,5 @@
 const welcome = JSON.parse(fs.readFileSync('./welcomer.json' , 'utf8'));
- 
+ const fs = require('fs')
 client.on('message', message => {
            if (!message.channel.guild) return;
  
